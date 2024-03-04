@@ -5,13 +5,34 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Ady</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <style>
+        body {
+            background: linear-gradient(to right, 
+                violet, indigo, blue, green, yellow, orange, red); /* Definindo um gradiente de cor de arco-íris */
+            animation: rainbow 10s linear infinite; /* Adicionando uma animação de fade */
+            background-size: 1500% 1500%; /* Tamanho do gradiente */
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; } /* Começa do lado esquerdo */
+            50% { background-position: 100% 50%; } /* Chega ao lado direito */
+            100% { background-position: 0% 50%; } /* Volta ao lado esquerdo */
+        }
+    </style>
 </head>
-<body bgcolor="SlateBlue">
-    <font size="50" color="MediumSeaGreen"
-    face="ariel">
-        Hello World!
-    </font>
+<body>
+    <p align="center">
+        <font size="50" color="MediumSeaGreen" face="Arial">
+            
+            Hello World!
+        </font>
+        </p>
+        <p align="center">
+            <font size="50" color="MediumSeaGreen" face="Arial">
+                
+                Welcome To The Mato
+            </font>
+            </p>
+            
 </body>
 </html>
