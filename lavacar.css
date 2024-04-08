@@ -1,0 +1,20 @@
+header {
+    background-color: #333; /* Cor de fundo padrão */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+  
+    /* Adicionando a animação de arco-íris */
+    animation: rainbow 10s infinite;
+  }
+  
+  @keyframes rainbow {
+    0% { background-color: #ff0000; }
+    14% { background-color: #ff7f00; }
+    28% { background-color: #ffff00; }
+    42% { background-color: #00ff00; }
+    57% { background-color: #0000ff; }
+    71% { background-color: #4b0082; }
+    85% { background-color: #9400d3; }
+    100% { background-color: #ff0000; }
+  }
+  
