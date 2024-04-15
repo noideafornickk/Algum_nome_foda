@@ -4,17 +4,31 @@ header {
     padding: 20px; /* Espaçamento interno */
   
     /* Adicionando a animação de arco-íris */
-    animation: rainbow 10s infinite;
+    animation: rainbow 20s infinite;
   }
   
   @keyframes rainbow {
     0% { background-color: #ff0000; }
-    14% { background-color: #ff7f00; }
-    28% { background-color: #ffff00; }
-    42% { background-color: #00ff00; }
-    57% { background-color: #0000ff; }
-    71% { background-color: #4b0082; }
+    14% { background-color: #db6e00; }
+    28% { background-color: #f5e946; }
+    42% { background-color: #3dc578; }
+    57% { background-color: #07a7b3; }
+    71% { background-color: #4332d8; }
     85% { background-color: #9400d3; }
     100% { background-color: #ff0000; }
   }
-  
+  .caixa{
+    position:relative;
+    width: 940px;
+    margin: 0 auto;
+  }
+  nav{
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  nav li{
+    display: inline;
+    margin: 0 0 0 40px;
+  }
