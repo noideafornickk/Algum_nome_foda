@@ -32,3 +32,12 @@ header {
     display: inline;
     margin: 0 0 0 40px;
   }
+  nav a{
+text-transform: uppercase;
+color: #9400d3;
+font-weight: bold;
+font-size: 20px;
+text-decoration-skip-ink;
+
+
+  }
