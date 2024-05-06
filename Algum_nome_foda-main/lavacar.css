@@ -61,3 +61,19 @@ text-decoration-skip-ink;
     border: 2px solid rgb(109, 14, 14);
     border-radius: 10px;
   }
+   .produtos li:hover{
+    border-color: #9400d3;
+    font-size: 40px;
+   }
+   .produtos li:hover h2{
+    font-size: 34px;
+   }
+   .produtos li:active{
+    border-color: #3dc578;
+    font-size: 40px;
+   }
+   .produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+   }
